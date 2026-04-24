@@ -29,8 +29,8 @@ Autor: Marcos Gabriel Ferreira Miranda
 ## 🚀 Como Jogar
 
 1. Abra `index.html` no navegador
-2. Clique em "Iniciar Jogo" ou pressione ENTER
-3. Use as setas para mover, espaço para atirar
+2. Clique na fase que deseja jogar 
+3. Use as setas ou mouse para mover, espaço ou clic esquerdo do mouse para atirar
 4. ESC para pausar, R para reiniciar
 
 
