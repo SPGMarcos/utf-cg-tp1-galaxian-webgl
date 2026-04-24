@@ -4,7 +4,8 @@ Jogo inspirado no clássico Galaxian, desenvolvido com WebGL e JavaScript.
 
 Creditos a sprite usada no jogo: https://opengameart.org/content/space-shooter-art
 
-link do youtube mostrando funcionamento: 
+link do youtube: 
+
 
 Autor: Marcos Gabriel Ferreira Miranda
 
