@@ -28,6 +28,8 @@ Autor: Marcos Gabriel Ferreira Miranda
 
 ## 🚀 Como Jogar
 
+Atraves do link: https://spgmarcos.github.io/utf-cg-tp1-galaxian-webgl/ , ou:
+
 1. Abra `index.html` no navegador
 2. Clique na fase que deseja jogar 
 3. Use as setas ou mouse para mover, espaço ou o clic esquerdo do mouse para atirar
