@@ -23,7 +23,7 @@ Autor: Marcos Gabriel Ferreira Miranda
 - Inimigos atiram e dão razantes aleatoriamente
 - Colisões: tiros jogador x inimigos, tiros inimigos x jogador, meteoros x jogador
 - Vitória: quando eliminar todos inimigos
-- Derrota: acabar as 3 vidas ou inimigos chegam no final da janela do jogo.
+- Derrota: acabar as 3 vidas ou inimigos chegam no limite da janela do jogo.
 
 
 ## 🚀 Como Jogar
