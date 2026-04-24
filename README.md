@@ -14,8 +14,7 @@ Autor: Marcos Gabriel Ferreira Miranda
 - **← →** : Mover nave
 - **Espaço** : Atirar
 - **ESC** : Pausar/Continuar
-- **R** : Reiniciar (com confirmação Y/N)
-- **ENTER** : Reiniciar no Game Over
+- **R** : Reiniciar 
 
 ## 🎯 Jogabilidade
 
