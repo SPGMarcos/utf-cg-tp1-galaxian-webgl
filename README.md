@@ -31,13 +31,21 @@ Autor: Marcos Gabriel Ferreira Miranda
 
 
 ## 🔧 Lista de Itens adicionais implementados
+
 [x] Textura animada 
+
 [x] Fundo lindão e com movimento/animação
+
 [x] Efeito de partículas
+
 [x] Rasante
+
 [x] Inimigos diferentes
+
 [x] Itens
+
 [x] Pontuação
+
 [x] Vidas
 [x] Controle via mouse
 [x] Tela cheia
