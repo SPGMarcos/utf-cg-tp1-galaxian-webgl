@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+  Página principal do Galaxian WebGL.
+  A ideia é manter a tela do jogo dentro de um canvas e usar
+  camadas HTML para HUD, menu e mensagens de estado.
+-->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Galaxian WebGL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="gameWrapper">
+    <canvas id="glCanvas"></canvas>
+    <div id="overlay">
+      <div id="hud">
+        <div class="hud-item" id="hud-score"></div>
+        <div class="hud-item" id="hud-lives"></div>
+      </div>
+
+      <div id="message" class="hidden"></div>
+
+      <div id="menu-screen" class="menu-panel hidden">
+        <h1>GALAXIAN</h1>
+        <p class="menu-subtitle">Escolha a fase</p>
+        <button id="btn-fase1" class="main-button">FASE 1</button>
+        <button id="btn-fase2" class="main-button" style="margin-top: 12px;">FASE 2</button>
+        <p class="menu-subtitle" style="margin-top: 18px;">← → mover · Espaço atira · ESC pausa · R reinicia</p>
+        <div id="highscore-panel" class="score-panel">
+          <h2>Melhores pontuações</h2>
+          <ol id="highscore-list"></ol>
+        </div>
+      </div>
+
+      <div id="panel-buttons" class="hidden">
+        <button id="btn-next-phase" class="main-button hidden">Ir para a fase 2</button>
+        <button id="btn-restart" class="main-button hidden">Jogar novamente</button>
+        <button id="btn-resume" class="secondary-button hidden">Continuar</button>
+        <button id="btn-confirm-restart" class="main-button hidden">Confirmar reinício</button>
+        <button id="btn-cancel-restart" class="secondary-button hidden">Cancelar</button>
+        <button id="btn-menu" class="secondary-button">Voltar ao menu</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./codigo/main.js"></script>
+</body>
+</html>
