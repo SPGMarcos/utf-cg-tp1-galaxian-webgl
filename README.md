@@ -1,6 +1,8 @@
-# Galaxian WebGL
+# utf-cg-tp1-galaxian-webgl
 
 Jogo inspirado no clássico Galaxian, desenvolvido com WebGL e JavaScript.
+
+Autor: Marcos Gabriel Ferreira Miranda
 
 ## 🎮 Controles
 
@@ -14,20 +16,11 @@ Jogo inspirado no clássico Galaxian, desenvolvido com WebGL e JavaScript.
 
 - Inimigos se movem em bloco lateralmente
 - Ao atingir a borda, descem e invertem direção
-- Inimigos atiram aleatoriamente
-- Colisões: tiros x inimigos, tiros inimigos x jogador
-- Vitória: eliminar todos inimigos
-- Derrota: jogador atingido ou inimigos chegam ao solo
+- Inimigos atiram e dão razantes aleatoriamente
+- Colisões: tiros jogador x inimigos, tiros inimigos x jogador, meteoros x jogador
+- Vitória: quando eliminar todos inimigos
+- Derrota: acabar as 3 vidas ou inimigos chegam no final da janela do jogo.
 
-## 🎨 Características
-
-- Renderização WebGL com fallback 2D
-- Texturas procedurais
-- Layout fullscreen (ocupa toda a tela)
-- Interface moderna com HUD, menu e botões
-- Sistema de telas: Menu → Jogo → Pause/Game Over
-- Botão "Voltar ao Menu" em pause e game over
-- Canvas ocupa 100% da viewport
 
 ## 🚀 Como Jogar
 
@@ -36,20 +29,27 @@ Jogo inspirado no clássico Galaxian, desenvolvido com WebGL e JavaScript.
 3. Use as setas para mover, espaço para atirar
 4. ESC para pausar, R para reiniciar
 
-## 📁 Estrutura do Código
 
-- `codigo/estado.js` - Estado global do jogo
-- `codigo/jogo.js` - Loop principal e lógica
-- `codigo/entrada.js` - Controles de teclado
-- `codigo/renderer.js` - Renderização WebGL/2D
-- `codigo/inimigos.js` - Movimento dos inimigos
-- `codigo/tiros.js` - Sistema de tiros
-- `codigo/colisao.js` - Detecção de colisões
-- `codigo/main.js` - Inicialização
+## 🔧 Lista de Itens adicionais implementados
 
-## 🔧 Tecnologias
+- [x] Textura animada 
 
-- WebGL puro (com shaders GLSL)
-- JavaScript ES6 Modules
-- Canvas 2D (fallback)
-- CSS moderno com posicionamento absoluto
+- [x] Fundo lindão e com movimento/animação
+
+- [x] Efeito de partículas
+
+- [x] Rasante
+
+- [x] Inimigos diferentes
+
+- [x] Itens
+
+- [x] Pontuação
+
+- [x] Vidas
+
+- [x] Controle via mouse
+
+- [x] Tela cheia
+
+- [x] Telas
